@@ -53,9 +53,21 @@ __4. They are normally distributed.__
 - __Y__ might be a non linear function of __X's__.
     - e.g., if there are diminishing marginal effects
  
-    ![](images/diminishing.png)
+    ![](images/diminishing.jpg)
     
 - **There might be interactions among the X’s in their effects on Y**
     - e.g., if the sensitivity of Y to one ofthe X’s depends on the values of other X’s
     
     ![](images/interaction.png)
+    
+- **Some cases in which the size of the random deviations of Y from its expected value might depend on the values of the X’s** 
+    - e.g., if there is greater or lesser uncertainty under some conditions
+    
+    ![](images/uncertainity.jpg)
+    
+- **The random deviations might be correlated in time, or in which the errors are not normally distributed.**
+    - e.g., The error distribution might not be bell-shaped and/or might have some really extreme values.
+    
+    ![](images/skewed.jpg)
+
+### A regression model assumes that there are no such _nonlinearities or interactions or changing volatility or autocorrelation or nonnormality_ in the random variations.
