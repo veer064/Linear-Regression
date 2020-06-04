@@ -50,6 +50,12 @@ __4. They are normally distributed.__
 
 ### You can easily imagine many situations in the real world problems that may not satisfy all/some of the assumptions listed above.
 
-- __Y__ might not non linear function of __X's__.
- - e.g., if there are diminishing marginal effects
-![]()
+- __Y__ might be a non linear function of __X's__.
+    - e.g., if there are diminishing marginal effects
+ 
+    ![](images/diminishing.png)
+    
+- **There might be interactions among the X’s in their effects on Y**
+    - e.g., if the sensitivity of Y to one ofthe X’s depends on the values of other X’s
+    
+    ![](images/interaction.png)
