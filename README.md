@@ -1,4 +1,4 @@
-# Linear-Regresion
+# Linear-Regression
 
 INTRO to LIN-REG:
 -----
