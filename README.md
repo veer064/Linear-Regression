@@ -1,4 +1,4 @@
-# Linear-Regression
+# Linear-Regression-and-its-assumptions
 
 INTRO to LIN-REG:
 -----
