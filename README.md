@@ -21,6 +21,30 @@ normal random variables with mean zero (the “noise” in the system).
 
 The __β__ s together with the __mean and standard deviation of the epsilons__ are the __*parameters*__ of the model. 
 
-The corresponding equation for *predicting __Yt__ from the corresponding values of the __X’s__ is therefore*
+The corresponding equation for *predicting __Yt__ from the corresponding values of the __X’s__ is therefore:*
 
+![](/images/Pred_equation.PNG)
+
+where
+- __b’s__ are estimates of the __β__ s obtained by *least-squares*, i.e., minimizing the squared
+prediction error within the sample. 
+
+This is a simplest possible model for predicting one variable from a group of others, and it rests on the following assumptions.
+
+## Assumptions of Linear Regession
+
+__1. The expected value of Y is a linear function of the X variables. This means:__
+- if Xi changes by an amount ∆Xi, holding other variables fixed, then the expected
+value of Y changes by a proportional amount βi∆Xi, for some constant βi (which
+in general could be a positive or negative number).
+- The value of βi is always the same, regardless of values of the other X’s.
+- The total effect of the X’s on the expected value of Y is the sum of their separate
+effects.
+
+__2. The unexplained variations of Y are independent random variables (in particular, not
+“autocorrelated” if the variables are time series)__
+
+__3. They all have the same variance (“homoscedasticity”).__
+
+__4. They are normally distributed.__
 
