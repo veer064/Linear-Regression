@@ -48,3 +48,8 @@ __3. They all have the same variance (“homoscedasticity”).__
 
 __4. They are normally distributed.__
 
+### You can easily imagine many situations in the real world problems that may not satisfy all/some of the assumptions listed above.
+
+- __Y__ might not non linear function of __X's__.
+ - e.g., if there are diminishing marginal effects
+![]()
