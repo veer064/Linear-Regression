@@ -70,4 +70,9 @@ __4. They are normally distributed.__
     
     ![](images/skewed.jpg)
 
-### A regression model assumes that there are no such _nonlinearities or interactions or changing volatility or autocorrelation or nonnormality_ in the random variations.
+## A regression model assumes that there are no such _nonlinearities or interactions or changing volatility or autocorrelation or nonnormality_ in the random variations.
+
+> ***_A regression model does not assume that Y merely “depends in some way” on the X’s. If you have a variable Y that you wish to predict, and you have some other variables X1, X2, etc., that you believe have “some sort of effect” on Y or “some sort of predictive
+value” with respect to future values of Y, this does NOT suffice to justify using a linear regression model to predict Y from the X’s._***
+
+>***_The regression model makes very strong assumptions about the WAY in which Y depends on the X’s, namely that the causal or predictive effects of the X’s with respect to Y are linear and additive and non-interactive and that any variations in Y that are not explained by the X’s are statistically independent of each other and identically normally distributed under all conditions._*** 
