@@ -18,16 +18,19 @@ Data Dictionary:
 
 - **NewVolSales** -> This variable contains the numerical information, the No. Of. Sales of the product for each week. 
 
-- **Base_Price** -> This variable contains the average base price of the product for the week being obsereved.
+- **Base_Price** -> The base price of the product for the week being obsereved.
 
-- **Radio** -> This variable contains the no. of. Ads/Campaigns on Radio, for the promotion of the product for the week being observed.
+- **Radio** -> The no. of. Ads/Campaigns on Radio, for the promotion of the product for the week being observed.
 
-- **InStore** -> The average no. of. Ads/Campaigns in stores, for the promotion of the product for the week being observed.
+- **InStore** -> The average spendings for the promotion of the product at stores for the week being observed.
 
-- **NewspaperInserts** -> This variable is a categorical feature, if in the observed week News paper inserts were used for the promotion of the product then its returned Inserted in it for each week.
+- **NewspaperInserts** -> This is categorical feature, if in the observed week News paper inserts were used for the promotion of the product then its returned 'Inserted' in it for each week.
 
 - **Discount** -> Discount rate for that week.
-- **TV** -> Television Campaigning metrics.
-- **Stout** -> Not yet clear, but some type of promotion technique for sure.
+
+- **TV** -> Avg spendings on Television Campaigning for the observed week.
+
+- **Stout** -> The Stock out rate, i.e; The no.of. time stock out / Total no. of. visits for the product.
+
 - **Website_Campaign** -> The website on which the campaigning was done for each of the weeks in data.
 
