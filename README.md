@@ -10,7 +10,7 @@ The Linear regression analysis is the most used of all statistical techniques an
 
 In linear regression model the *__'variable of interest'__*, commonly knows as *__'dependent variable'__* is predicted from *__k__* other variables called as *__'independent variables'__* using a __linear equation__. If __Y__ denotes the variable of interest (the so-called dependent variable) and __X1, …, Xk,__ are the independent variables, the assumption is that the value of __Y__ at time __t__ (or row __t__) in the data sample is determined by the linear equation: 
 
-![](/images/Lin-Reg-equation.PNG | width = 100)
+![](/images/Lin-Reg-equation.PNG)
 
 where 
 - __β__ s are the constants
